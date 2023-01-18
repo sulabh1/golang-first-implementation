@@ -1,6 +1,8 @@
 # golang-first-implementation
 
 https://docs.google.com/document/d/1ONjgRWpyu_YWcg4tS50OvWapFyy0r7mQGZ8fIXGV-9o/edit?usp=sharing
+
+
 learning golang from scratch.
 
 =>Capital letter indicate that it is public
