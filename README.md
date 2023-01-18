@@ -34,6 +34,21 @@ fmt.Println(anotherNumber, "another number")
 Output is 0 another number
 This is of type int
 
+=>reads input from os
+	Bufio is a package which allow us to read the data and also os capture the standard input from our console.
+
+reader:= bufio.NewReader(os.Stdin)
+       fmt.Println("Enter the rating for my new looks")
+=> comma ok || comma error syntax:
+	. Its like try catch in other programming language.
+	. Data coming stores in input and if error occur the stores in a error if we dont care about err then _ is used. Same goes to input as well. _ can be used in input if we dont care about incoming data. And \n is whenever user enter then our input exit.
+
+input, _:= reader.ReadString('\n')
+
+
+       fmt.Println("The value is:",input)
+
+
 
 
 
